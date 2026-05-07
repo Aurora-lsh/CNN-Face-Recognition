@@ -22,7 +22,7 @@ pip install torch torchvision torchaudio --index-url [https://download.pytorch.o
 pip install facenet-pytorch opencv-python gradio scikit-learn matplotlib seaborn pandas
 ```
 ## 📂 目录结构
-
+```
 CNN-Face-Project/
 ├── dataset_split/          # 划分好的数据集 (需自行准备)
 │   ├── train/              # 训练集 (包含32个明星的子文件夹)
@@ -33,7 +33,7 @@ CNN-Face-Project/
 ├── gui_app.py              # Gradio Web 网页应用
 ├── realtime_app.py         # OpenCV 摄像头实时识别应用
 └── evaluate.py             # 模型评估与混淆矩阵生成脚本
-
+```
 ## 🚀 快速开始
 1. 模型训练
 如果你有自己的数据集，请按上述目录结构放置后，运行：
