@@ -28,6 +28,7 @@ CNN-Face-Project/
 │   ├── train/              # 训练集 (包含32个明星的子文件夹)
 │   └── val/                # 验证/测试集
 ├── best_face_model.pth     # 训练好的模型权重 (需自行训练或下载)
+├── requirements.txt    # 项目所需的库依赖清单
 ├── train.py                # 模型训练脚本
 ├── app.py                  # 命令行图片识别应用
 ├── gui_app.py              # Gradio Web 网页应用
