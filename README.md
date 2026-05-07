@@ -21,7 +21,7 @@ pip install torch torchvision torchaudio --index-url [https://download.pytorch.o
 # 2. 安装其他核心依赖包
 pip install facenet-pytorch opencv-python gradio scikit-learn matplotlib seaborn pandas
 
-📂 目录结构
+## 📂 目录结构
 CNN-Face-Project/
 ├── dataset_split/          # 划分好的数据集 (需自行准备)
 │   ├── train/              # 训练集 (包含32个明星的子文件夹)
@@ -33,22 +33,26 @@ CNN-Face-Project/
 ├── realtime_app.py         # OpenCV 摄像头实时识别应用
 └── evaluate.py             # 模型评估与混淆矩阵生成脚本
 
-🚀 快速开始
+## 🚀 快速开始
 1. 模型训练
 如果你有自己的数据集，请按上述目录结构放置后，运行：
+```bash
 python train.py
 
 2. 启动 Web 网页端
 带有漂亮 UI 进度条的交互界面，支持上传照片：
+```bash
 python gui_app.py
 
 3. 启动实时摄像头检测
 调用本地摄像头，实时框出人脸并显示姓名与确信度（按 q 键退出）：
+```bash
 python realtime_app.py
 
 
 4. 模型性能评估
 对验证集进行全面测试，并生成 confusion_matrix.png：
+```bash
 python evaluate.py
 
 
