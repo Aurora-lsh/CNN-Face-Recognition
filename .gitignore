@@ -1,0 +1,16 @@
+# 忽略数据集文件夹
+dataset/
+dataset_cropped/
+dataset_split/
+
+# 忽略模型权重文件
+*.pth
+*.pt
+
+# 忽略生成的评估图片
+confusion_matrix.png
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
