@@ -58,6 +58,10 @@ python realtime_app.py
 python evaluate.py
 ```
 
+## 实例结果
+<img width="960" height="719" alt="结果" src="https://github.com/user-attachments/assets/6ac8cfe1-5ab6-4c8d-be30-bc1a86e44216" />
+
+
 ⚠️ 注意事项
 由于 GitHub 的文件大小限制，本仓库未包含原始数据集和超过 100MB 的模型权重文件 (best_face_model.pth)。
 
