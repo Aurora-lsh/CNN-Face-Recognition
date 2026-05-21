@@ -38,6 +38,8 @@ CNN-Face-Project/
 ## 🚀 快速开始
 1. 模型训练
    数据集来源于教师发的实验素材，可在飞桨或kaggle下载类似数据集。使用自己的数据集，请按下述目录结构放置。
+
+```bash
 dataset_split/          # 划分好的数据集 (需自行准备)
   ├── train/              # 训练集 (包含32个明星的子文件夹)
   │    ├── label01
@@ -47,6 +49,7 @@ dataset_split/          # 划分好的数据集 (需自行准备)
        ├── label01
        ├── label01
        └── ······
+```
 运行：
 ```bash
 python train.py
