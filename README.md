@@ -72,7 +72,8 @@ python evaluate.py
 ```
 
 ## 实例结果
-<img width="960" height="719" alt="结果" src="https://github.com/user-attachments/assets/6ac8cfe1-5ab6-4c8d-be30-bc1a86e44216" />
+<img width="906" height="900" alt="image" src="https://github.com/user-attachments/assets/e6f9d04c-1087-49ad-8e99-3c65c5bf0283" />
+
 
 
 ⚠️ 注意事项
