@@ -50,7 +50,7 @@ dataset_split/          # 划分好的数据集 (需自行准备)
        ├── label01
        └── ······
 ```
-运行：
+   运行：
 ```bash
 python train.py
 ```
